@@ -5,10 +5,20 @@
  */
 package com.example.myapp.controller;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
 /**
  *
  * @author Eero Tirkkonen
  */
+@Controller
 public class AppController {
+    @RequestMapping("/")
+    @ResponseBody
+    String home() {
+        return "Hello World!";
+    }
     
 }
