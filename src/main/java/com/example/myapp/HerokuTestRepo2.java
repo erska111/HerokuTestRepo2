@@ -7,12 +7,12 @@ import org.springframework.stereotype.*;
 
 
 @SpringBootApplication
-public class DemoApplication {
+public class HerokuTestRepo2 {
 
     
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(HerokuTestRepo2.class, args);
     }
 
 }
